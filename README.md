@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# Brasil Acessível
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º Semestre`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Felipe Ferreira Moraes de Paula
+* Fernando Maia Torres Alves
+* Gabriela Salviano De Lorenzi Cancelier
+* Jhody Mike Possidonio Da Silva
+* Lucas Barboza Maciel Gomes
+* Marcelo Pantoja
 
 ## Orientador
 
-* Nome completo do professor 1
+* Prof. Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
