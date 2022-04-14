@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Felipe Ferreira Moraes de Paula
-* Fernando Maia Torres Alves - teste
+* Fernando Maia Torres Alves
 * Gabriela Salviano De Lorenzi Cancelier
 * Jhody Mike Possidonio Da Silva
 * Lucas Barboza Maciel Gomes
