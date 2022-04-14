@@ -30,6 +30,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Teste | TEste 2 | O ICEI sabe quão importante é a formação continuada dos seus alunos e dos profissionais que buscam o aprimoramento e novos conhecimentos em suas áreas de interesse. Por isso, oferta diversos cursos de especialização na área de Ciências Exatas e Informática, tais como Jogos, Tecnologias da Informação, Arquitetura, Engenharia e Projetos de Software, Business Intelligence, Design de Interação, Ensino de Matemática, Redes de Computadores e Sistemas Embarcados.|               
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
