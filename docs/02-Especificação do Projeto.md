@@ -4,13 +4,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-|---|---|
-| ![foto](img/pai.png) | Adriano Carvalho |
-|-----------|
-| Idade: 42 Ocupação: Economista, trabalha em um escritório de consultoria de investimentos para empresas e pessoas físicas Escolaridade: superior completo | Aplicativos: Linkedin Aplicativos de bancos Instagram |
-|----|---|---|
-| Motivações | Frustações | Hobbies, história |
-
+Adriano Carvalho tem 42 anos, é esonomista e trabalha em um escritório de consultoria de investimentos. É casado e com um filho pequeno e quer ir a restaurantes com a mulher com um espaço kid, para que ele possa proveitar um jantar fora sabendo que o filho está por perto e bem.
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
