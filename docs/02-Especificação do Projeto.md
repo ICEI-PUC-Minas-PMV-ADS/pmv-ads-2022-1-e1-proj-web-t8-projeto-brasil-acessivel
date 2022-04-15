@@ -6,6 +6,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 Adriano Carvalho tem 42 anos, é esonomista e trabalha em um escritório de consultoria de investimentos. É casado e com um filho pequeno e quer ir a restaurantes com a mulher com um espaço kid, para que ele possa proveitar um jantar fora sabendo que o filho está por perto e bem.
 
+João da Silva tem 60 anos, é aposentado e cadeirante. Por causa da sua deficiencia, muitos locais onde tem que ir não tem um acesso adequado para a sua deficiência e, também, não há nenhum onde ele possa checar para saber os locais onde há uma acessibilidade para ele.
+
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
