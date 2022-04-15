@@ -4,6 +4,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
+|---|---|
 | ![foto](img/pai.png) | Adriano Carvalho |
 |-----------|
 | Idade: 42 Ocupação: Economista, trabalha em um escritório de consultoria de investimentos para empresas e pessoas físicas Escolaridade: superior completo | Aplicativos: Linkedin Aplicativos de bancos Instagram |
