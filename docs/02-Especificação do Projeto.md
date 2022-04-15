@@ -4,10 +4,10 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-| Foto|Adriano Carvalho|
-||--------|
-||Idade: 42 Ocupação: Economista, trabalha em um escritório de consultoria de investimentos para empresas e pessoas físicas Escolaridade: superior completo|Aplicativos: Linkedin Aplicativos de bancos Instagram|
-|Motivações|Frustações|Hobbies, história|
+| Foto | Adriano Carvalho |
+| |--------|
+| | Idade: 42 Ocupação: Economista, trabalha em um escritório de consultoria de investimentos para empresas e pessoas físicas Escolaridade: superior completo | Aplicativos: Linkedin Aplicativos de bancos Instagram |
+| Motivações | Frustações | Hobbies, história |
 
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
