@@ -4,9 +4,13 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-Adriano Carvalho tem 42 anos, é esonomista e trabalha em um escritório de consultoria de investimentos. É casado e com um filho pequeno e quer ir a restaurantes com a mulher com um espaço kid, para que ele possa proveitar um jantar fora sabendo que o filho está por perto e bem.
+Adriano Carvalho tem 42 anos, é esonomista e trabalha em um escritório de consultoria de investimentos. É casado e com um filho pequeno e gosta de ir a restaurantes com a esposa mas não tem com quem deixar o seu filho. Ele tem dificuldade de saber um local onde há um espaço kids para que o seu filho possa ficar em um local seguro enquando ele apoveita um bom jantar com a esposa.
 
 João da Silva tem 60 anos, é aposentado e cadeirante. Por causa da sua deficiencia, muitos locais onde tem que ir não tem um acesso adequado para a sua deficiência e, também, não há nenhum onde ele possa checar para saber os locais onde há uma acessibilidade para ele.
+
+Patrique Henrique da Silva tem 23 anos, tem cegueira bilateral e é atleta paraolimpico. Poucos locais há acessibilidades para a sua deficiente e os que possuem, não são amplamente anunciados.
+
+Ana Carolina Martins tem 35 anos, é surda e muda e possui uma pousada em Gramado, RS. Por ter uma deficiencia, a sua pousada é toda adaptada para receber uma grande gama de pessoas com deficiência, mas a divulgação dessa acessibilidade ampla não é destacada em nenhum site profissional de hoteis.
 
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
