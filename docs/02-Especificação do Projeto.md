@@ -63,22 +63,22 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID        | Descrição do Requisito  | Prioridade |
 |----------|-----------------------------------------|----|
-|RF-001| O site deve apresentar a funcionalidade de buscador (search) | ALTA | 
-|RF-002| O site deve apresentar categorias para facilitar a busca dos usuários | MÉDIA |
-|RF-003| O site deve apresentar as informações do estabelecimento |ALTA |
-|RF-004| O site deve apresentar mecanismos para avaliação dos estabelecimentos através de comentário e notas | MÉDIA |
-|RF-005| O site deve recomendar estabelecimentos de acordo com o perfil de cada usuário | MÉDIA |
-|RF-006| O site deve possuir um filtro para refinar a busca do usuário | ALTA |
-|RF-007| O site deve ter seus vídeos com legendas, tela com sinais de linguagem e/ou áudio descrição | BAIXA |
-|RF-008| O site deve possuir uma área de login para que o usuário possa fazer determinadas ações no site | ALTA |
-|RF-009| O site deve possuir uma área de login para as empresas poderem administrar as suas informações | ALTA |
-|RF-010| O site deve possuir uma área para cadastrar e editar as especificações do seu estabelecimento | ALTA |
-|RF-011| O site deve possuir dentro da área de login da empresa um resumo de feedback dos usuários | MÉDIA |
-|RF-012| O site deve possuir um canal de comunicação direto com os criadores dentro da área de login de usuários e empresas | BAIXA |
-|RF-013| O site deve ter dentro da área de login de usuários uma sessão de locais favoritados | MÉDIA |
-|RF-014| O site deve possuir uma categoria “Sobre Nós” | BAIXA |
-|RF-015| O site deve apresentar informações sobre acessibilidade como leis, importância, etc... | MÉDIA |
-|RF-015| O site deve apresentar um ranking com os estabelecimentos mais bem avaliados | MÉDIA |
+| RF-001 | O site deve apresentar a funcionalidade de buscador (search) | ALTA | 
+| RF-002 | O site deve apresentar categorias para facilitar a busca dos usuários | MÉDIA |
+| RF-003 | O site deve apresentar as informações do estabelecimento |ALTA |
+| RF-004 | O site deve apresentar mecanismos para avaliação dos estabelecimentos através de comentário e notas | MÉDIA |
+| RF-005 | O site deve recomendar estabelecimentos de acordo com o perfil de cada usuário | MÉDIA |
+| RF-006 | O site deve possuir um filtro para refinar a busca do usuário | ALTA |
+| RF-007 | O site deve ter seus vídeos com legendas, tela com sinais de linguagem e/ou áudio descrição | BAIXA |
+| RF-008 | O site deve possuir uma área de login para que o usuário possa fazer determinadas ações no site | ALTA |
+| RF-009 | O site deve possuir uma área de login para as empresas poderem administrar as suas informações | ALTA |
+| RF-010 | O site deve possuir uma área para cadastrar e editar as especificações do seu estabelecimento | ALTA |
+| RF-011 | O site deve possuir dentro da área de login da empresa um resumo de feedback dos usuários | MÉDIA |
+| RF-012 | O site deve possuir um canal de comunicação direto com os criadores dentro da área de login de usuários e empresas | BAIXA |
+| RF-013 | O site deve ter dentro da área de login de usuários uma sessão de locais favoritados | MÉDIA |
+| RF-014 | O site deve possuir uma categoria “Sobre Nós” | BAIXA |
+| RF-015 | O site deve apresentar informações sobre acessibilidade como leis, importância, etc... | MÉDIA |
+| RF-016 | O site deve apresentar um ranking com os estabelecimentos mais bem avaliados | MÉDIA |
 
 ### Requisitos não Funcionais
 
