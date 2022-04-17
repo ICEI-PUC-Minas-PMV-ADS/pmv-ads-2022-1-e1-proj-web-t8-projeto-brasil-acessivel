@@ -62,7 +62,7 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues. 
 
 |ID        | Descrição do Requisito  | Prioridade |
-|----------|-----------------------------------------|----|
+|:----------:|-----------------------------------------|:----:|
 | RF-001 | O site deve apresentar a funcionalidade de buscador (search) | ALTA | 
 | RF-002 | O site deve apresentar categorias para facilitar a busca dos usuários | MÉDIA |
 | RF-003 | O site deve apresentar as informações do estabelecimento |ALTA |
@@ -85,7 +85,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
+|:-------:|-------------------------|:----:|
 |RNF-001| O site deve ser responsivo | ALTA | 
 |RNF-002| O site deve ser compatível com os principais navegadores | ALTA | 
 |RNF-003| O site deve ter acessibilidade digital, seguindo as regras da WCAG 2.1 conforme normas da W3C | MÉDIA |
@@ -95,7 +95,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir. 
 
 |ID| Restrição                                             |
-|--|-------------------------------------------------------|
+|:--:|-------------------------------------------------------|
 |RE-01| O projeto deverá ser entregue no final do semestre, não podendo extrapolar a data de 31/07/2022 |
 |RE-02| O site deve se restringir às tecnologias básicas da Web no Frontend |
 |RE-03| A equipe não pode subcontratar uma empresa para ajudar a desenvolver o design do site |
