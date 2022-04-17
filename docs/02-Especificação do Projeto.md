@@ -63,7 +63,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar a funcionalidade de buscador (search) | ALTA | 
+|RF-001 | O site deve apresentar a funcionalidade de buscador (search) | ALTA | 
 |RF-002| O site deve apresentar categorias para facilitar a busca dos usuários | MÉDIA |
 |RF-003| O site deve apresentar as informações do estabelecimento |ALTA |
 |RF-004| O site deve apresentar mecanismos para avaliação dos estabelecimentos através de comentário e notas | MÉDIA |
