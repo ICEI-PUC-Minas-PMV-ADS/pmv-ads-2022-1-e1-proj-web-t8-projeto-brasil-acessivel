@@ -4,16 +4,23 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-Adriano Carvalho tem 42 anos, é esonomista e trabalha em um escritório de consultoria de investimentos. É casado e com um filho pequeno e gosta de ir a restaurantes com a esposa mas não tem com quem deixar o seu filho. Ele tem dificuldade de saber um local onde há um espaço kids para que o seu filho possa ficar em um local seguro enquando ele apoveita um bom jantar com a esposa.
+Adriano Carvalho tem 42 anos, é economista e trabalha em um escritório de consultoria de investimentos. É casado e com um filho pequeno e gosta de ir a restaurantes com a esposa, mas não tem com quem deixar o seu filho. Ele tem dificuldade de saber um local onde há um espaço kids para que o seu filho possa ficar em um local seguro enquanto ele aproveita um bom jantar com a esposa.
 
-João da Silva tem 60 anos, é aposentado e cadeirante. Por causa da sua deficiencia, muitos locais onde tem que ir não tem um acesso adequado para a sua deficiência e, também, não há nenhum onde ele possa checar para saber os locais onde há uma acessibilidade para ele.
+João da Silva tem 60 anos, é aposentado e cadeirante. Por causa da sua deficiência, muitos locais onde tem que ir não tem um acesso adequado para a sua deficiência e, também, não há nenhum onde ele possa checar para saber os locais onde há uma acessibilidade para ele.
 
-Patrique Henrique da Silva tem 23 anos, tem cegueira bilateral e é atleta paraolimpico. Poucos locais há acessibilidades para a sua deficiente e os que possuem, não são amplamente anunciados.
+Patrique Henrique da Silva tem 23 anos, tem cegueira bilateral e é atleta paraolímpico. Poucos locais há acessibilidades para a sua deficiente e os que possuem, não são amplamente anunciados.
 
-Ana Carolina Martins tem 35 anos, é surda e muda e possui uma pousada em Gramado, RS. Por ter uma deficiencia, a sua pousada é toda adaptada para receber uma grande gama de pessoas com deficiência, mas a divulgação dessa acessibilidade ampla não é destacada em nenhum site profissional de hoteis.
+Ana Carolina Martins tem 35 anos, é surda e muda e possui uma pousada em Gramado, RS. Por ter uma deficiência, a sua pousada é toda adaptada para receber uma grande gama de pessoas com deficiência, mas a divulgação dessa acessibilidade ampla não é destacada em nenhum site profissional de hotéis.
+
+Vinícius Rosa tem 25 anos, é músico e possui visão baixa. Gosta de ir em locais onde que consigam atendê-lo de forma semelhante a outras pessoas que não possuam deficiência. Ele só consegue saber se um local é acessível para a sua deficiência quando ele já está no estabelecimento.
+
+Isabela Teixeira tem 27 anos, é arquiteta e está com uma gestação de risco e um filho pequeno. Gosta de fazer caminhadas e ter momentos de lazer que não comprometa a saúde da gravidez. Ela tem dificuldade de encontrar locais onde não tenha degraus, escadas e que não possuam filas para o banheiro e para pagamentos.
+
+Cláudia Dos Santos é empresária, tem 33 anos e tem um filho com transtorno do espectro autista. Ela gostaria de levar o filho a locais que ajude a estimular o desenvolvimento do seu filho, o deixando feliz e tranquilo. Locais assim são difíceis de serem encontrados e não há um local onde mostre onde que estes estabelecimentos estão localizados.
 
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+
+*Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.*
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
