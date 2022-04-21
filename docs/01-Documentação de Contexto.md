@@ -19,13 +19,13 @@ O objetivo geral deste trabalho é a criação de um portal, com acessibilidade 
 
 Como objetivos específicos, podemos ressaltar:
 
-●	Criar um site acessível a todas as pessoas, com ou sem algum tipo de deficiência;
+* Criar um site acessível a todas as pessoas, com ou sem algum tipo de deficiência;
 
-●	Informar quais estabelecimentos possui algum tipo de acessibilidade em suas instalações e/ou empregados capacitados a atendê-los;
+* Informar quais estabelecimentos possui algum tipo de acessibilidade em suas instalações e/ou empregados capacitados a atendê-los;
 
-●	Descrever quais tipos de acessibilidade estes estabelecimentos possuem;
+* Descrever quais tipos de acessibilidade estes estabelecimentos possuem;
 
-●	Permitir que usuários desses estabelecimentos deem sua opinião sobre a acessibilidade oferecida.
+* Permitir que usuários desses estabelecimentos deem sua opinião sobre a acessibilidade oferecida.
 
 
 ## Justificativa
