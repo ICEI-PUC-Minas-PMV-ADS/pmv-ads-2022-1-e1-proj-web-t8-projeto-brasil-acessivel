@@ -39,12 +39,33 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+A equipe está organizada da seguinte maneira:
+*	Scrum Master: Fernando Maia Torres Alves
+*	Product Owner: Jhody Mike Possidonio Da Silva
+* Equipe de Desenvolvimento
+  *	Felipe Ferreira Moraes de Paula
+  *	Fernando Maia Torres Alves
+  *	Gabriela Salviano De Lorenzi Cancelier
+  *	Jhody Mike Possidonio Da Silva
+  *	Lucas Barboza Maciel Gomes
+  *	Marcelo Pantoja
+*	Equipe de Design
+ 	*	Fernando Maia Torres Alves
+ 	*	Gabriela Salviano De Lorenzi Cancelier
+ 	*	Lucas Barboza Maciel Gomes
+
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas:
+
+*	Recursos: esta lista mantém template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
+*	Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+*	To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+*	Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá.
+*	Test: Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+*	Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+*	Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa.
+
 
 ### Processo
 
