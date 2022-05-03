@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<! aqui o lang deve ser pt-br, pois estamos no brasil. -->
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +16,15 @@
         <p>Seja bem vindo ao portal brasil acessível, aqui você encontrará serviços e locais que atendam suas
             necessidades!</p>
     </header>
+    
+    <select name="categoria" id="categoria">
+        <option value="">Categoria</option>
+        <option value="bares e restaurantes">Bares e Restaurantes</option>
+        <option value="hotéis">Hotéis</option>
+        <option value="clinicas médicas">Clinicas Médicas</option>
+        <option value="lojas de roupas">Lojas de Roupas</option>
+    </select>
+    
     <main>
         <h2>Destaque da Semana</h2>
         <section>
@@ -24,8 +33,7 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar</p>
-<! aqui o favoritar deve ter semântica de button -->
+            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p>
         </section>
         <section>
             <h3>Nome do Estabelecimento</h3>
@@ -33,7 +41,7 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar</p>
+            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p>
         </section>
         <section>
             <h3>Nome do Estabelecimento</h3>
@@ -41,7 +49,7 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar</p>
+            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p>
         </section>
         <section>
             <h3>Nome do Estabelecimento</h3>
@@ -49,14 +57,13 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar</p>
+            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p> 
         </section>
     </main>
     <footer>
-<! os itens fale conosco, portal brasil acessível e sobre nós, devem ter suas semânticas definidas, se serão cabeçalhos, links ou botões. -->
-        Fale Conosco<br>
-        Portal Brasil Acessível<br>
-        Sobre Nós
+        <a href="fale_conosco.html">Fale Conosco</a><br>
+        <a href="portal_br_aces.html">Portal Brasil Acessível</a><br>
+        <a href="sobre_nos.html">Sobre Nós</a><br>
     </footer>
 </body>
 
