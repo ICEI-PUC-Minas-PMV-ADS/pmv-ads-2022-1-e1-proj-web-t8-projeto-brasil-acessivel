@@ -19,23 +19,25 @@
         <h1>Projeto Brasil Acessível</h1>
         <p>Seja bem vindo ao portal brasil acessível, aqui você encontrará serviços e locais que atendam suas
             necessidades!</p>
-        <button onclick="document.location='cadastro.html'">Sign In </button>
-        <button>Log In</button>
+        <button onclick="document.location='cadastro.html'">Cadastrar</button><br>
+        <button>Log In</button><br>
     </header>
-
     <main>
-        <nav>
+<h2 id="principal">Brasil Acessível - acessibilidade de verdade!</h2>
+<section aria-labelledby="teste">
+<p id="teste" style="display:none">área de busca</p>
+        <label for="categoria">Escolha a categoria desejada</label>
             <select name="categoria" id="categoria">
                 <option value="">Categoria</option>
                 <option value="bares e restaurantes">Bares e Restaurantes</option>
                 <option value="hotéis">Hotéis</option>
                 <option value="clinicas médicas">Clinicas Médicas</option>
                 <option value="lojas de roupas">Lojas de Roupas</option>
-            </select>
-            <input type="text" id="txtBusca" placeholder="Procurar..." />
-            <button id="btnBusca">Buscar</button>
-        </nav>
-
+            </select><br>
+<label id="teste" for="textBusca">Busca de estabelecimentos</label>
+            <input type="text" id="txtBusca" placeholder="Digite aqui o estabelecimento que deseja procurar" /><br>
+            <button id="btnBusca" type="submit">Buscar</button>
+        </section>
         <h2>Destaque da Semana</h2>
         <section>
             <h3>Nome do Estabelecimento</h3>
@@ -43,7 +45,8 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p>
+            <label for="favoritar1">Favoritar</label>
+ <input type="checkbox" id="favoritar1" name="acao" value="vel">
         </section>
         <section>
             <h3>Nome do Estabelecimento</h3>
@@ -51,7 +54,8 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p>
+            <label for="favoritar2">Favoritar</label>
+ <input type="checkbox" name="acao" value="vel" id="favoritar2">
         </section>
         <section>
             <h3>Nome do Estabelecimento</h3>
@@ -59,7 +63,8 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p>
+            <label for="favoritar3">Favoritar</label>
+ <input type="checkbox" id="favoritar3" name="acao" value="vel">
         </section>
         <section>
             <h3>Nome do Estabelecimento</h3>
@@ -67,11 +72,12 @@
             <p>Acessibilidade</p>
             <p>Nota do local</p>
             <p>Informações Gerais</p>
-            <p>Favoritar <input type="checkbox" name="acao" value="vel"></p>
+            <label for="favoritar4">Favoritar</label>
+ <input type="checkbox" id="favoritar4" name="acao" value="vel">
         </section>
     </main>
     <footer>
-        <a href="fale_conosco.html"> Fale Conosco</a><br>
+        <a id="rodape" href="fale_conosco.html"> Fale Conosco</a><br>
         <a href="acess_legal.html"> Acessibilidade Legal</a><br>
         <a href="sobre_nos.html"> Sobre Nós</a><br>
     </footer>
