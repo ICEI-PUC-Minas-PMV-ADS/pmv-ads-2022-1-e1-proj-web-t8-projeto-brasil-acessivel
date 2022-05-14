@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro - brasil acessível</title>
 </head>
-<body style="background: blue">
+<body>
     <header>
-<a href="#principal">Ir para o conteúdo principal</a>
-<br>
-<a href="#rodape">Ir para o rodapé</a>
-<br>
+        <a href="#principal">Ir para o conteúdo principal</a>
+        <br>
+        <a href="#rodape">Ir para o rodapé</a>
+        <br>
         <img width="100" height="100" src="Imagens/Logo.png" alt="Logo Brasil Acessível">
         <h1>Projeto Brasil Acessível</h1>
         <p>Seja bem vindo ao portal brasil acessível, aqui você encontrará serviços e locais que atendam suas
             necessidades!</p>
+        <button onclick="document.location='index.html'">Voltar para o início</button><br>
+        <button>Log In</button><br>
     </header>
 <main>
     <h2 id="principal"> Cadastro</h2>
-<p> Escolha o tipo de cadastro que deseja efetuar, se for um usuário comum que deseja utilizar o portal para consumir informações, cadastre-se como usuário comum, mas caso seja um prestador de serviço informal, ou seja, que não possui CNPJ, escolha a opção respectiva, ou ainda, se for uma empresa, selecione a opção de empresas</p>
+<p> Escolha o tipo de cadastro que deseja efetuar, se for um usuário comum que deseja utilizar o portal para consumir informações, cadastre-se como usuário comum, mas caso seja um prestador de serviço informal ou não, escolha a opção respectiva, ou ainda, se for uma empresa, selecione a opção de empresas</p>
 <ol>
 <li><button aria-pressed="false" id="usuario">Usuário comum</button></li>
 <li><button aria-pressed="false" id="prestador">Prestador de serviço</button></li>
@@ -64,17 +66,24 @@
     <option value="SP">São Paulo</option>
     <option value="SE">Sergipe</option>
     <option value="TO">Tocantins</option>
-    <option value="EX">Estrangeiro</option>
 </select>
 <br>
 <label for="cidade">Cidade atual</label>
 <input type="text" id="cidade" name="cidade" required>
 <br>
+<fieldset required>
+<legend>Você possui alguma deficiência?</legend>
+<label for="sim">Sim possuo</label>
+<input type="radio" id="sim" name="deficiente">
+<br>
+<label for="nao">Não possuo</label>
+<input type="radio" id="nao" name="deficiente">
+</fieldset>
 <label for="email">E-mail</label>
 <input type="email" id="email" placeholder="joaodasilva@example.com.br" name="email" required>
 <br>
 <label for="confirmacaoEmail">Confirme seu e-mail</label>
-<input type="email" id="confirmacaoEmail" name="confirmacaoEmail" placeholder="joaodasilva@example.com.br" required>
+<input type="email" id="confirmacaoEmail" placeholder="joaodasilva@example.com.br" name="confirmacaoEmail" required>
 <br>
 <label for="senha">Crie uma senha</label>
 <input type="password" id="senha" name="senha" required>
@@ -90,13 +99,13 @@
 <form>
 <fieldset>
 <legend aria-live="polite">Cadastro de prestador de serviço</legend>
-<label for="nomeCompleto">Nome Completo</label>
-<input type=text id="nomeCompleto" placeholder="João da silva" required>
+<label for="nomeCompleto2">Nome Completo</label>
+<input type=text id="nomeCompleto2" placeholder="João da silva" required>
 <br>
-<label for="datanasc">Data de nascimento</label>
-<input type="date" id="datanasc" name="dataNascimento" placeholder="DD/MM/AAAA" required>
-<label for="estado">Escolha seu Estado atual</label>
-<select id="estado" name="estado" required>
+<label for="datanasc2">Data de nascimento</label>
+<input type="date" id="datanasc2" name="dataNascimento" placeholder="DD/MM/AAAA" required>
+<label for="estado2">Escolha o Estado atual da prestação do serviço</label>
+<select id="estado2" name="estado" required>
     <option value="AC">Acre</option>
     <option value="AL">Alagoas</option>
     <option value="AP">Amapá</option>
@@ -124,23 +133,34 @@
     <option value="SP">São Paulo</option>
     <option value="SE">Sergipe</option>
     <option value="TO">Tocantins</option>
-    <option value="EX">Estrangeiro</option>
 </select>
 <br>
-<label for="cidade">Cidade atual</label>
-<input type="text" id="cidade" name="cidade" required>
+<label for="cidade2">Cidade onde se encontra o ponto de atendimento</label>
+<input type="text" id="cidade2" name="cidade" required>
 <br>
-<label for="email">E-mail</label>
-<input type="email" id="email" placeholder="joaodasilva@example.com.br" name="email" required>
+<label for="cnpj2">CNPJ (se houver)</label>
+<input type="text" id="cnpj2" name="cnpj2">
 <br>
-<label for="confirmacaoEmail">Confirme seu e-mail</label>
-<input type="email" id="confirmacaoEmail" name="confirmacaoEmail" placeholder="joaodasilva@example.com.br" required>
+<label for="razao2">Nome fantasia do estabelecimento (se houver)</label>
+<input type="text" id="razao2" name="razao2" placeholder="reparos joão da silva">
 <br>
-<label for="senha">Crie uma senha</label>
-<input type="password" id="senha" name="senha" required>
+<label for="servico2">Qual é a prestação de serviço ofertada?</label>
+<input type="text" id="servico2" name="servico2" placeholder="ex: reparo de televisões e celulares" required>
 <br>
-<label for="confirmacaoSenha">Confirme sua senha</label>
-<input type="password" id="confirmacaoSenha" name="confirmacaoSenha" required>
+<label for="endereco2>Endereço do local da prestação de serviço</label>
+<input type="text" id="endereco2" name="endereco2" placeholder="a domicílio/ se for local fixo preencher rua, número, bairro e cep" required>
+<br>
+<label for="email2">E-mail</label>
+<input type="email" id="email2" placeholder="joaodasilva@example.com.br" name="email2" required>
+<br>
+<label for="confirmacaoEmail2">Confirme seu e-mail</label>
+<input type="email" id="confirmacaoEmail2" name="confirmacaoEmail2" placeholder="joaodasilva@example.com.br" required>
+<br>
+<label for="senha2">Crie uma senha</label>
+<input type="password" id="senha2" name="senha2" required>
+<br>
+<label for="confirmacaoSenha2">Confirme sua senha</label>
+<input type="password" id="confirmacaoSenha2" name="confirmacaoSenha2" required>
 <br>
 <button type="submit">Cadastrar Agora!</button>
 </fieldset>
@@ -150,17 +170,82 @@
 <form>
 <fieldset>
 <legend aria-live="polite">Cadastros de Empresas</legend>
-<input type="text">
+<label for="nomeCompleto3">Nome Completo</label>
+<input type=text id="nomeCompleto3" placeholder="João da silva" required>
+<br>
+<label for="datanasc3">Data de nascimento</label>
+<input type="date" id="datanasc3" name="dataNascimento" placeholder="DD/MM/AAAA" required>
+<label for="estado3">Escolha o estado atual da empresa</label>
+<select id="estado3" name="estado" required>
+    <option value="AC">Acre</option>
+    <option value="AL">Alagoas</option>
+    <option value="AP">Amapá</option>
+    <option value="AM">Amazonas</option>
+    <option value="BA">Bahia</option>
+    <option value="CE">Ceará</option>
+    <option value="DF">Distrito Federal</option>
+    <option value="ES">Espírito Santo</option>
+    <option value="GO">Goiás</option>
+    <option value="MA">Maranhão</option>
+    <option value="MT">Mato Grosso</option>
+    <option value="MS">Mato Grosso do Sul</option>
+    <option value="MG">Minas Gerais</option>
+    <option value="PA">Pará</option>
+    <option value="PB">Paraíba</option>
+    <option value="PR">Paraná</option>
+    <option value="PE">Pernambuco</option>
+    <option value="PI">Piauí</option>
+    <option value="RJ">Rio de Janeiro</option>
+    <option value="RN">Rio Grande do Norte</option>
+    <option value="RS">Rio Grande do Sul</option>
+    <option value="RO">Rondônia</option>
+    <option value="RR">Roraima</option>
+    <option value="SC">Santa Catarina</option>
+    <option value="SP">São Paulo</option>
+    <option value="SE">Sergipe</option>
+    <option value="TO">Tocantins</option>
+</select>
+<br>
+<label for="cidade3">Cidade onde se encontra o ponto de atendimento</label>
+<input type="text" id="cidade3" name="cidade" required>
+<br>
+<label for="cnpj3">CNPJ da empresa</label>
+<input type="text" id="cnpj3" name="cnpj3" required>
+<br>
+<label for="razao3">Nome fantasia do estabelecimento</label>
+<input type="text" id="razao3" name="razao3" placeholder="reparos fantásticos do João LTDA">
+<br>
+<label for="social3">Razão social da empresa</label>
+<input type="text" id="social3" name="social3" placeholder="joão da silva ltda" required>
+<br>
+<label for="servico3">Qual é o tipo de estabelecimento?</label>
+<input type="text" id="servico3" name="servico3" placeholder="ex: restaurante" required>
+<br>
+<label for="endereco3>Endereço da empresa</label>
+<input type="text" id="endereco3" name="endereco3" placeholder="a domicílio/ se for local fixo preencher rua, número, bairro e cep" required>
+<br>
+<label for="email3">E-mail</label>
+<input type="email" id="email3" placeholder="joaodasilva@example.com.br" name="email3" required>
+<br>
+<label for="confirmacaoEmail3">Confirme seu e-mail</label>
+<input type="email" id="confirmacaoEmail3" name="confirmacaoEmail3" placeholder="joaodasilva@example.com.br" required>
+<br>
+<label for="senha3">Crie uma senha</label>
+<input type="password" id="senha3" name="senha3" required>
+<br>
+<label for="confirmacaoSenha3">Confirme sua senha</label>
+<input type="password" id="confirmacaoSenha3" name="confirmacaoSenha3" required>
+<br>
+<button type="submit">Cadastrar Agora!</button>
 </fieldset>
 </div>
 </section>
-
 </main>
-<footer>
-    <a href="" id="rodape">Fale conosco</a>
-<br>
-<a href="">Sobre nós</a>
-</footer>
+    <footer>
+        <a id="rodape" href="fale_conosco.html"> Fale Conosco</a><br>
+        <a href="acess_legal.html"> Acessibilidade Legal</a><br>
+        <a href="sobre_nos.html"> Sobre Nós</a><br>
+    </footer>
 <script>
 var btn1 = document.getElementById("usuario");
 var formulario = document.getElementById("demo");
