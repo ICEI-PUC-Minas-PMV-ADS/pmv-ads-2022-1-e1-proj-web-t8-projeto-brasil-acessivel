@@ -16,7 +16,7 @@ var bd = `{
             "nota": 3.7,
             "informacoes": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, unde quod hic doloremque sint quae eaque odit laudantium aspernatur temporibus, dolorem enim."
  }
-];
+],
 "hoteis": [
 {
             "imagem": "http://source.unsplash.com/200x180/?hotel/1",
@@ -34,7 +34,7 @@ var bd = `{
             "nota": 4.6,
             "informacoes": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci dolorum nam."
 }
-];
+],
  "clinicas": [
 {
             "imagem": "http://source.unsplash.com/200x180/?clinic/1",
@@ -52,7 +52,7 @@ var bd = `{
             "nota": 3.7,
             "informacoes": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nam minus nisi error fuga totam!"
 }
-];
+],
 "lojas": [ 
 {
             "imagem": "http://source.unsplash.com/200x180/?store/1",
