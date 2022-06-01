@@ -32,7 +32,7 @@
                     <li><button id="restaurantebar">Bares e Restaurantes</button></li>
                     <li><button id="lojasRoupa">Lojas de Roupas</button></li>
                     <li><button id="clinicasmedica">Clinicas médicas</button></li>
-                    <li><button id="hoteis1">Hotéis</button></li>
+                    <li><button id="hotelHT">Hotéis</button></li>
                 </ul>
             </div>
 
@@ -102,7 +102,8 @@
         var lojaRoup = document.getElementById("lojasRoupa");
         lojaRoup.onclick = muda2;
         var hotel = JSON.parse(bd).hoteis;
-        var hotelH = document.getElementById("hotel1");
+        var hotelH = document.getElementById("hotelHT");
+hotelH.onclick = muda4;
         var conteudoHtml = "";
 
         function exibe() {
