@@ -23,150 +23,202 @@
         <button>Log In</button><br>
     </header>
     <main>
-<h2 id="principal">Brasil Acessível - acessibilidade de verdade!</h2>
-<section aria-labelledby="teste">
-<p id="teste" style="display:none">área de busca</p>
-<button aria-expanded="false" id="botao1">Menu de categorias</button>
-<div id="menu" style="display:none">
-    <ul>
-<li><button id="restaurantebar">Bares e Restaurantes</button></li>
-<li><button id="lojasRoupa">Lojas de Roupas</button></li>
-<li><button id="clinicasmedica">Clinicas médicas</button></li>
-<li><button id="hoteis1">Hotéis</button></li>
-</ul>
-</div>
+        <h2 id="principal">Brasil Acessível - acessibilidade de verdade!</h2>
+        <section aria-labelledby="teste">
+            <p id="teste" style="display:none">área de busca</p>
+            <button aria-expanded="false" id="botao1">Menu de categorias</button>
+            <div id="menu" style="display:none">
+                <ul>
+                    <li><button id="restaurantebar">Bares e Restaurantes</button></li>
+                    <li><button id="lojasRoupa">Lojas de Roupas</button></li>
+                    <li><button id="clinicasmedica">Clinicas médicas</button></li>
+                    <li><button id="hoteis1">Hotéis</button></li>
+                </ul>
+            </div>
 
 
-<label for="busca">Busca de estabelecimentos</label>
-            <input type="text" id="busca"" placeholder="Digite aqui o estabelecimento que deseja procurar" /><br>
+            <label for="busca">Busca de estabelecimentos</label>
+            <input type="text" id="busca"" placeholder=" Digite aqui o estabelecimento que deseja procurar" /><br>
             <button id="btnBusca" type="submit">Buscar</button>
         </section>
-<section id="conteudo"></section>
+        <section id="conteudo"></section>
         <div id="resultados" style="display: block">
-        <h2>Destaque da Semana</h2>
-        <section>
-            <h3>Nome do Estabelecimento</h3>
-            <img src="Imagens/restaurante.png" alt="Fachada restaurante">
-            <p>Acessibilidade</p>
-            <p>Nota do local</p>
-            <p>Informações Gerais</p>
-            <label for="favoritar1">Favoritar</label>
- <input type="checkbox" id="favoritar1" name="acao" value="vel">
-        </section>
-        <section>
-            <h3>Nome do Estabelecimento</h3>
-            <img src="Imagens/hotel.jpg" alt="Fachada hotel">
-            <p>Acessibilidade</p>
-            <p>Nota do local</p>
-            <p>Informações Gerais</p>
-            <label for="favoritar2">Favoritar</label>
- <input type="checkbox" name="acao" value="vel" id="favoritar2">
-        </section>
-        <section>
-            <h3>Nome do Estabelecimento</h3>
-            <img src="Imagens/medico.jpg" alt="Fachada clinica médica">
-            <p>Acessibilidade</p>
-            <p>Nota do local</p>
-            <p>Informações Gerais</p>
-            <label for="favoritar3">Favoritar</label>
- <input type="checkbox" id="favoritar3" name="acao" value="vel">
-        </section>
-        <section>
-            <h3>Nome do Estabelecimento</h3>
-            <img src="Imagens/loja.png" alt="Fachada loja de roupa">
-            <p>Acessibilidade</p>
-            <p>Nota do local</p>
-            <p>Informações Gerais</p>
-            <label for="favoritar4">Favoritar</label>
- <input type="checkbox" id="favoritar4" name="acao" value="vel">
-        </section>
-    </div>
+            <h2>Destaque da Semana</h2>
+            <section>
+                <h3>Nome do Estabelecimento</h3>
+                <img src="Imagens/restaurante.png" alt="Fachada restaurante">
+                <p>Acessibilidade</p>
+                <p>Nota do local</p>
+                <p>Informações Gerais</p>
+                <label for="favoritar1">Favoritar</label>
+                <input type="checkbox" id="favoritar1" name="acao" value="vel">
+            </section>
+            <section>
+                <h3>Nome do Estabelecimento</h3>
+                <img src="Imagens/hotel.jpg" alt="Fachada hotel">
+                <p>Acessibilidade</p>
+                <p>Nota do local</p>
+                <p>Informações Gerais</p>
+                <label for="favoritar2">Favoritar</label>
+                <input type="checkbox" name="acao" value="vel" id="favoritar2">
+            </section>
+            <section>
+                <h3>Nome do Estabelecimento</h3>
+                <img src="Imagens/medico.jpg" alt="Fachada clinica médica">
+                <p>Acessibilidade</p>
+                <p>Nota do local</p>
+                <p>Informações Gerais</p>
+                <label for="favoritar3">Favoritar</label>
+                <input type="checkbox" id="favoritar3" name="acao" value="vel">
+            </section>
+            <section>
+                <h3>Nome do Estabelecimento</h3>
+                <img src="Imagens/loja.png" alt="Fachada loja de roupa">
+                <p>Acessibilidade</p>
+                <p>Nota do local</p>
+                <p>Informações Gerais</p>
+                <label for="favoritar4">Favoritar</label>
+                <input type="checkbox" id="favoritar4" name="acao" value="vel">
+            </section>
+        </div>
     </main>
     <footer>
         <a id="rodape" href="fale_conosco.html"> Fale Conosco</a><br>
         <a href="acess_legal.html"> Acessibilidade Legal</a><br>
         <a href="sobre_nos.html"> Sobre Nós</a><br>
     </footer>
+   
     <script src="bd.js"></script>
     <script>
-var restbar = document.getElementById("restaurantebar");
-restbar.onclick = muda;
-var mostra = document.getElementById("resultados");
-var btnMenu = document.getElementById("botao1");
-btnMenu.onclick = exibe;
-var dive = document.getElementById("menu");
-var restaurante = JSON.parse(bd).restaurantes;
-var clinica = JSON.parse(bd).clinicas;
-var loja = JSON.parse(bd).lojas;
-var lojaRoup = document.getElementById("lojasRoupa");
-lojaRoup.onclick = muda2;
-var hotel = JSON.parse(bd).hoteis;
-var hotelH = document.getElementById("hotel1");
-    var conteudoHtml = "";
+        var restbar = document.getElementById("restaurantebar");
+        restbar.onclick = muda;
+        var mostra = document.getElementById("resultados");
+        var btnMenu = document.getElementById("botao1");
+        btnMenu.onclick = exibe;
+        var dive = document.getElementById("menu");
+        var restaurante = JSON.parse(bd).restaurantes;
+        var clinica = JSON.parse(bd).clinicas;
+        var loja = JSON.parse(bd).lojas;
+        var lojaRoup = document.getElementById("lojasRoupa");
+        lojaRoup.onclick = muda2;
+        var hotel = JSON.parse(bd).hoteis;
+        var hotelH = document.getElementById("hotel1");
+        var conteudoHtml = "";
 
-function exibe() {
-    if(btnMenu.getAttribute("aria-expanded") == "false") {
-        btnMenu.setAttribute("aria-expanded", "true");
-dive.setAttribute("style", "display: block");
-    }
-    else if(btnMenu.getAttribute("aria-expanded") == "true") {
-        dive.setAttribute("style", "display: none");
+        function exibe() {
+            if (btnMenu.getAttribute("aria-expanded") == "false") {
+                btnMenu.setAttribute("aria-expanded", "true");
+                dive.setAttribute("style", "display: block");
+            }
+            else if (btnMenu.getAttribute("aria-expanded") == "true") {
+                dive.setAttribute("style", "display: none");
                 btnMenu.setAttribute("aria-expanded", "false");
-    }
-    }
+            }
+        }
 
-function muda() {
-    mostra.setAttribute("style", "display: none");
-    let section = document.getElementById("conteudo");
+        function muda() {
+            mostra.setAttribute("style", "display: none");
+            let section = document.getElementById("conteudo");
 
-    section.innerHTML = "";
-    conteudoHtml = "";
+            section.innerHTML = "";
+            conteudoHtml = "";
 
-    for(let contador = 0; contador < restaurante.length; contador++) {
-    let estabelecimento = restaurante[contador];
-conteudoHtml += "<h3 aria-live='polite'>"+estabelecimento.nome+"</h3>";
-conteudoHtml += "<p>"+estabelecimento.informacoes+"</p>";
-conteudoHtml += "<img src='"+estabelecimento.imagem+"' alt='faixada do restaurante'>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span> categoria: "+estabelecimento.categoria+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span>Acessibilidades do local: "+estabelecimento.acessibilidade+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span>Nota: "+estabelecimento.nota+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<label for='favorito"+(contador)+"'>Favoritar</label>";
-conteudoHtml += "<input type='checkbox' id='favorito"+(contador)+"'>";
+            for (let contador = 0; contador < restaurante.length; contador++) {
+                let estabelecimento = restaurante[contador];
+                conteudoHtml += "<h3 aria-live='polite'>" + estabelecimento.nome + "</h3>";
+                conteudoHtml += "<p>" + estabelecimento.informacoes + "</p>";
+                conteudoHtml += "<img src='" + estabelecimento.imagem + "' alt='Faxada do Restaurante'>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span> Categoria: " + estabelecimento.categoria + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Acessibilidades do local: " + estabelecimento.acessibilidade + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Nota: " + estabelecimento.nota + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<label for='favorito" + (contador) + "'>Favoritar</label>";
+                conteudoHtml += "<input type='checkbox' id='favorito" + (contador) + "'>";
 
-    }
-section.innerHTML = conteudoHtml;
-}
+            }
+            section.innerHTML = conteudoHtml;
+        }
 
 
- function muda2() {
-    mostra.setAttribute("style", "display: none");
-    let section = document.getElementById("conteudo");
+        function muda2() {
+            mostra.setAttribute("style", "display: none");
+            let section = document.getElementById("conteudo");
 
-    section.innerHTML = "";
-    conteudoHtml = "";
+            section.innerHTML = "";
+            conteudoHtml = "";
 
-    for(let contador = 0; contador < loja.length; contador++) {
-    let estabelecimento = loja[contador];
-conteudoHtml += "<h3 aria-live='polite'>"+estabelecimento.nome+"</h3>";
-conteudoHtml += "<p>"+estabelecimento.informacoes+"</p>";
-conteudoHtml += "<img src='"+estabelecimento.imagem+"' alt='faixada do restaurante'>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span> categoria: "+estabelecimento.categoria+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span>Acessibilidades do local: "+estabelecimento.acessibilidade+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span>Nota: "+estabelecimento.nota+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<label for='favorito"+(contador)+"'>Favoritar</label>";
-conteudoHtml += "<input type='checkbox' id='favorito"+(contador)+"'>";
+            for (let contador = 0; contador < loja.length; contador++) {
+                let estabelecimento = loja[contador];
+                conteudoHtml += "<h3 aria-live='polite'>" + estabelecimento.nome + "</h3>";
+                conteudoHtml += "<p>" + estabelecimento.informacoes + "</p>";
+                conteudoHtml += "<img src='" + estabelecimento.imagem + "' alt='Faxada do loja'>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span> Categoria: " + estabelecimento.categoria + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Acessibilidades do local: " + estabelecimento.acessibilidade + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Nota: " + estabelecimento.nota + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<label for='favorito" + (contador) + "'>Favoritar</label>";
+                conteudoHtml += "<input type='checkbox' id='favorito" + (contador) + "'>";
 
-    }
-section.innerHTML = conteudoHtml;
-}
+            }
+            section.innerHTML = conteudoHtml;
+        }
+        function muda3() {
+            mostra.setAttribute("style", "display: none");
+            let section = document.getElementById("conteudo");
+
+            section.innerHTML = "";
+            conteudoHtml = "";
+
+            for (let contador = 0; contador < clinica.length; contador++) {
+                let estabelecimento = clinica[contador];
+                conteudoHtml += "<h3 aria-live='polite'>" + estabelecimento.nome + "</h3>";
+                conteudoHtml += "<p>" + estabelecimento.informacoes + "</p>";
+                conteudoHtml += "<img src='" + estabelecimento.imagem + "' alt='Faxada da Clinica'>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span> Categoria: " + estabelecimento.categoria + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Acessibilidades do local: " + estabelecimento.acessibilidade + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Nota: " + estabelecimento.nota + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<label for='favorito" + (contador) + "'>Favoritar</label>";
+                conteudoHtml += "<input type='checkbox' id='favorito" + (contador) + "'>";
+
+            }
+            section.innerHTML = conteudoHtml;
+        }
+
+        function muda4() {
+            mostra.setAttribute("style", "display: none");
+            let section = document.getElementById("conteudo");
+
+            section.innerHTML = "";
+            conteudoHtml = "";
+
+            for (let contador = 0; contador < hotel.length; contador++) {
+                let estabelecimento = hotel[contador];
+                conteudoHtml += "<h3 aria-live='polite'>" + estabelecimento.nome + "</h3>";
+                conteudoHtml += "<p>" + estabelecimento.informacoes + "</p>";
+                conteudoHtml += "<img src='" + estabelecimento.imagem + "' alt='Faxada do Hotel'>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span> Categoria: " + estabelecimento.categoria + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Acessibilidades do local: " + estabelecimento.acessibilidade + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<span>Nota: " + estabelecimento.nota + "</span>";
+                conteudoHtml += "<br>";
+                conteudoHtml += "<label for='favorito" + (contador) + "'>Favoritar</label>";
+                conteudoHtml += "<input type='checkbox' id='favorito" + (contador) + "'>";
+
+            }
+            section.innerHTML = conteudoHtml;
+        }
 
     </script>
 </body>
