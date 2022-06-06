@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça login como usuário comum, empresa parceira ou prestador de serviços - Brasil Acessível</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#principal">Ir para conteúdo principal </a>
+        <br>
+        <a href="#rodape">Ir para o rodapé</a>
+        <br>
+        <img width="100" height="100" src="Imagens/Logo.png" alt="Logo Brasil Acessível">
+        <h1>Projeto Brasil Acessível</h1>
+        <p>Seja bem vindo ao portal brasil acessível, aqui você encontrará serviços e locais que atendam suas
+            necessidades!</p>
+        <button onclick="document.location='index.html'">Voltar para a Home</button>
+    </header>
+    <main>
+        <h2 id="principal">Fazer Login</h2>
+        <p>Você pode fazer login como usuário comum, prestador de serviços ou ainda como uma empresa parceira. Não
+            possui login, <button onclick="document.location='cadastro.html'">Cadastre-se</button></p>
+        <for>
+            <fieldset>
+                <legend>Faça login</legend>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="joaodasilva@example.com.br" name="email" required>
+                <br>
+                <label for="senha">Digite sua senha</label>
+                <input type="password" id="senha" name="senha" required>
+                <label for="salvarlogin">Continuar conectado</label>
+                <input type="checkbox" id="salvarlogin" name="salvarlogin">
+                                <input type="submit" name="loginusuario" value="Fazer login">
+                                <a href="">Esqueci minha senha</a>
+            </fieldset>
+        </for>
+    </main>
+    <footer>
+        <a id="rodape" href="fale_conosco.html"> Fale Conosco</a>
+        <br>
+        <a href="acess_legal.html"> Acessibilidade Legal</a>
+        <br>
+        <a href="sobre_nos.html"> Sobre Nós</a>
+    </footer>
+</body>
+
+</html>
