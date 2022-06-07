@@ -39,7 +39,7 @@
                 <a href="">Esqueci minha senha</a>
             </fieldset>
         </for>
-        <section id=""logado"></section>
+        <section id="logado"></section>
     </main>
     <footer>
         <a id="rodape" href="fale_conosco.html"> Fale Conosco</a>
@@ -54,19 +54,49 @@
         var emeio = document.getElementById("email");
         var seguranca = document.getElementById("senha");
 var envia = document.getElementById("enviar");
-var logar = document.getElementById("logado");
 var usuario = JSON.parse(bd).usuarios;
+var conteudoHtml = "";
 
 envia.onclick = registrado;
 function registrado()   {
-if(emeio.value == usuario[0].email && seguranca.value == usuario[0].senha || emeio.value == usuario[1].email && seguranca.value == usuario[1].senha || emeio.value == usuario[2].email && seguranca.value == usuario[2].senha || emeio.value == usuario[3].email && seguranca.value == usuario[3].senha || emeio.value == usuario[4].email && seguranca.value == usuario[4].senha) {
-alert("Deu certo");
+if(emeio.value == usuario[0].email && seguranca.value == usuario[0].senha) {
+    let section = document.getElementById("logado");
+conteudoHtml = "";
+section.innerHTML = "";
+conteudoHtml += "<button aria-expanded='false'>Usuário: "+usuario[0].email+"</button>";
+conteudoHtml += "<br>";
+conteudoHtml += "<span>nome: "+usuario[0].nome+"</span>";
+conteudoHtml += "<br>";
+conteudoHtml += "<span>idade: "+usuario[0].idade+"</span>";
+conteudoHtml += "<br>";
+conteudoHtml += "<span>deficiência: "+usuario[0].deficiencia+"</span>";
+section.innerHTML = conteudoHtml;
+} else {
+    alert("usuário ou senha inválida");
+}
+/*
+}
+
+
+
+} || emeio.value == usuario[1].email && seguranca.value == usuario[1].senha || emeio.value == usuario[2].email && seguranca.value == usuario[2].senha || emeio.value == usuario[3].email && seguranca.value == usuario[3].senha || emeio.value == usuario[4].email && seguranca.value == usuario[4].senha) {
+let section = document.getElementById("logado");
+conteudoHtml = "";
+section.innerHTML = "";
+
+for(let contador = 0; contador < usuario.length; contador++) {
+let dUsuario = usuario[contador];
+conteudoHtml += "<button aria-expanded='false'>Usuário: "+dUsuario.email+"</button>";
+conteudoHtml += "<span> teste </span>";
+break;
+}
+section.innerHTML = conteudoHtml;
+
 }
 else {
     alert("Está errado");
 }
-
-
+*/
 
 }
     </script>
