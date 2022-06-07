@@ -71,15 +71,28 @@ conteudoHtml += "<span>idade: "+usuario[0].idade+"</span>";
 conteudoHtml += "<br>";
 conteudoHtml += "<span>deficiência: "+usuario[0].deficiencia+"</span>";
 section.innerHTML = conteudoHtml;
+} else if (emeio.value == usuario[1].email && seguranca.value == usuario[1].senha) {
+    let section = document.getElementById("logado");
+conteudoHtml = "";
+section.innerHTML = "";
+conteudoHtml += "<button aria-expanded='false'>Usuário: "+usuario[1].email+"</button>";
+conteudoHtml += "<br>";
+conteudoHtml += "<span>nome: "+usuario[1].nome+"</span>";
+conteudoHtml += "<br>";
+conteudoHtml += "<span>idade: "+usuario[1].idade+"</span>";
+conteudoHtml += "<br>";
+conteudoHtml += "<span>deficiência: "+usuario[1].deficiencia+"</span>";
+section.innerHTML = conteudoHtml;
+
 } else {
-    alert("usuário ou senha inválida");
+alert("usuário ou senha inválida");
 }
 /*
 }
 
 
 
-} || emeio.value == usuario[1].email && seguranca.value == usuario[1].senha || emeio.value == usuario[2].email && seguranca.value == usuario[2].senha || emeio.value == usuario[3].email && seguranca.value == usuario[3].senha || emeio.value == usuario[4].email && seguranca.value == usuario[4].senha) {
+} || || emeio.value == usuario[2].email && seguranca.value == usuario[2].senha || emeio.value == usuario[3].email && seguranca.value == usuario[3].senha || emeio.value == usuario[4].email && seguranca.value == usuario[4].senha) {
 let section = document.getElementById("logado");
 conteudoHtml = "";
 section.innerHTML = "";
