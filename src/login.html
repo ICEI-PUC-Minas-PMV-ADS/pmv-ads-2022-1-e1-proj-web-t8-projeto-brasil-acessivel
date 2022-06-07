@@ -56,8 +56,9 @@
 var envia = document.getElementById("enviar");
 var usuario = JSON.parse(bd).usuarios;
 var conteudoHtml = "";
-
+var erro;
 envia.onclick = registrado;
+erro = 0;
 function registrado()   {
     let section = document.getElementById("logado");
 conteudoHtml = "";
@@ -75,9 +76,11 @@ conteudoHtml += "<span>deficiência: "+dUsuario.deficiencia+"</span>";
 section.innerHTML = conteudoHtml;
 break;
 }
+erro++;
 }
-alert("erro!");
+alert(erro);
 }
+
     </script>
 </body>
 

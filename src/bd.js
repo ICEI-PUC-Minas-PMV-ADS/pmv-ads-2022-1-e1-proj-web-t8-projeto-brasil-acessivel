@@ -73,7 +73,7 @@ var bd = `{
    ],
    "usuarios": [
        {
-           "nome": "Felpe de Paula",
+           "nome": "Felipe de Paula",
 "email": "felipe123@gmail.com",
 "senha": 123456,
 "idade": 27,
@@ -94,18 +94,18 @@ var bd = `{
         "deficiencia": "Esse escapou de boa.."
        },
        {
-           "nome": "Restaurante Bom Prato",
-        "email": "restaurantebomprato@gmail.com",
+           "nome": "Will Machado",
+        "email": "will123@gmail.com",
         "senha": 123456,
-        "endereco": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id nihil libero ea mollitia repellendus a tenetur atque iure doloribus.",
-        "site": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id nihil libero ea mollitia repellendus a tenetur atque iure doloribus."        
+        "idade": 40,
+        "deficiencia": "sem dedo mindinho."
        },
        {
-           "nome": "Bar Copo Sujo",
-        "email": "barcoposujo@gmail.com",
+   "nome": "Marcelo Pantoja",
+        "email": "marcelo123@gmail.com",
         "senha": 123456,
-        "endereco": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id nihil libero ea mollitia repellendus a tenetur atque iure doloribus.",
-        "site": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis id nihil libero ea mollitia repellendus a tenetur atque iure doloribus."
+        "idade": 171,
+        "deficiencia": "Ausência permanente"
        }
    ]
 }`;
