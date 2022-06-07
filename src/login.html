@@ -63,7 +63,7 @@ function registrado()   {
     let section = document.getElementById("logado");
 conteudoHtml = "";
 section.innerHTML = "";
-    for(let contador = 0; contador < usuario.length; contador++) {
+    for(var contador = 0; contador < usuario.length; contador++) {
 let dUsuario = usuario[contador];
 if(emeio.value == dUsuario.email && seguranca.value == dUsuario.senha) {
     conteudoHtml += "<button aria-expanded='false'>Usuário: "+dUsuario.email+"</button>";
@@ -76,9 +76,9 @@ conteudoHtml += "<span>deficiência: "+dUsuario.deficiencia+"</span>";
 section.innerHTML = conteudoHtml;
 break;
 }
-erro++;
 }
-alert(erro);
+if(contador == 5) {
+alert(contador);
 }
 
     </script>
