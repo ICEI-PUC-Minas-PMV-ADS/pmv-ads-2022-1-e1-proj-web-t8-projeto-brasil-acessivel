@@ -35,10 +35,11 @@
                 <input type="password" id="senha" name="senha" required>
                 <label for="salvarlogin">Continuar conectado</label>
                 <input type="checkbox" id="salvarlogin" name="salvarlogin">
-                                <input type="submit" name="loginusuario" value="Fazer login">
-                                <a href="">Esqueci minha senha</a>
+<button id="enviar">Fazer login</button>
+                <a href="">Esqueci minha senha</a>
             </fieldset>
         </for>
+        <section id=""logado"></section>
     </main>
     <footer>
         <a id="rodape" href="fale_conosco.html"> Fale Conosco</a>
@@ -47,6 +48,28 @@
         <br>
         <a href="sobre_nos.html"> Sobre Nós</a>
     </footer>
+
+    <script src="bd.js"></script>
+    <script>
+        var emeio = document.getElementById("email");
+        var seguranca = document.getElementById("senha");
+var envia = document.getElementById("enviar");
+var logar = document.getElementById("logado");
+var usuario = JSON.parse(bd).usuarios;
+
+envia.onclick = registrado;
+function registrado()   {
+if(emeio.value == usuario[0].email && seguranca.value == usuario[0].senha || emeio.value == usuario[1].email && seguranca.value == usuario[1].senha || emeio.value == usuario[2].email && seguranca.value == usuario[2].senha || emeio.value == usuario[3].email && seguranca.value == usuario[3].senha || emeio.value == usuario[4].email && seguranca.value == usuario[4].senha) {
+alert("Deu certo");
+}
+else {
+    alert("Está errado");
+}
+
+
+
+}
+    </script>
 </body>
 
 </html>
