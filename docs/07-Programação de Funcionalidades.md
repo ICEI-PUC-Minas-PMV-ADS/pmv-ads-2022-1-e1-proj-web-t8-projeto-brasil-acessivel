@@ -4,7 +4,7 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 ## Seleção de Categorias (RF-003 e RF-006)
 
-A tela principal do sistema possui um menu de categoria para selecionar um tipo de estabelecimento desejado. Ao selecionar uma categoria, os estabelecimentos que fazem parte dela irá ser apresentado na tela, com suas respectivas informações. As informações sobre os estabelecimentos são armazenada no LocalStorage com estruturas baseada em JSON.
+A tela principal do sistema possui um menu de categoria para selecionar um tipo de estabelecimento desejado. Ao selecionar uma categoria, os estabelecimentos que fazem parte dela irá ser apresentado na tela, com suas respectivas informações. As informações sobre os estabelecimentos são armazenada no arquivo JS com estrutura baseada em JSON.
 
 ![Tela inicial](img/TelaMenucategorias.png)
 
@@ -30,7 +30,7 @@ A tela principal do sistema possui um menu de categoria para selecionar um tipo 
 
 ## Log In (RF-008 e RF-013)
 
-A tela de log in permite que o usuário entre no site e tenha condição de favoritar os estabelecimentos que mais gostar, além de dar notas e deixar comentários sobre os estabelecimentos cadastrados . As informações sobre o log in são armazenada no LocalStorage com estruturas baseada em JSON.
+A tela de Login serve para altenticar os usuários, e logo após exibe informações sobre o usuário altenticado. As informações do Login são armazenadas em um arquivo JS com estrutura JSON.
 
 ![Tela login](img/TelaLogin.png)
 
@@ -51,4 +51,5 @@ A tela de log in permite que o usuário entre no site e tenha condição de favo
 1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
 2. Descompacte o arquivo em uma pasta específica;
 3. Abra o Visual Studio Code e execute o Live Server;
-4. Abra um navegador de Internet e informe a seguinte URL: http://localhost:5500/Brasil%20Acessivel/index.html
+4. Abra um navegador de Internet e informe a seguinte URL: http://localhost:5500/Brasil%20Acessivel/login.html
+5. Informe um e-mail e senha já cadastrado e precione o botão "fazer login".
