@@ -108,5 +108,22 @@ var bd = `{
             "idade": 171,
             "deficiencia": "Ausência permanente"
        }
-   ]
+   ],
+
+"prestadores": [
+{
+"nome": "thiago silva",
+"servico": "pedreiro",
+"idade": 28,
+"acessibilidade": "libras",
+"email": "thiagosilva@gmail.com"
+},
+{
+"nome": "bruna louise",
+"idade": 26,
+"servico": "massagista",
+"acessibilidade": "maca adaptada, libras, atendimento a domicílio",
+"email": "bruninha69@gmail.com"
+}
+]
 }`;
