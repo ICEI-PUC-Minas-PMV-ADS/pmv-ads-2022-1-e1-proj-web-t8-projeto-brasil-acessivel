@@ -58,7 +58,6 @@ var usuario = JSON.parse(bd).usuarios;
 var conteudoHtml = "";
 var erro;
 envia.onclick = registrado;
-erro = 0;
 function registrado()   {
     let section = document.getElementById("logado");
 conteudoHtml = "";
@@ -77,12 +76,14 @@ section.innerHTML = conteudoHtml;
 break;
 }
 }
-if(contador == 5) {     
+
+if(contador == usuario.length) {     
 alert("usuário ou senha invalidos!");
 } else {
     alert("usuário logado com sucesso!");
     }
 }
+    
     </script>
 </body>
 
