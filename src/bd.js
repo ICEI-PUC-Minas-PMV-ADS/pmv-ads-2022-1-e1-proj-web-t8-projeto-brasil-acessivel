@@ -110,20 +110,20 @@ var bd = `{
        }
    ],
 
-"prestadores": [
-{
-"nome": "thiago silva",
-"servico": "pedreiro",
-"idade": 28,
-"acessibilidade": "libras",
-"email": "thiagosilva@gmail.com"
-},
-{
-"nome": "bruna louise",
-"idade": 26,
-"servico": "massagista",
-"acessibilidade": "maca adaptada, libras, atendimento a domicílio",
-"email": "bruninha69@gmail.com"
-}
-]
+    "prestadores": [
+        {
+            "nome": "Thiago Silva",
+            "servico": "Pedreiro",
+            "idade": 28,
+            "acessibilidade": "Libras",
+            "email": "thiagosilva@gmail.com"
+        },
+        {
+            "nome": "Bruna Louise",
+            "idade": 26,
+            "servico": "Massagista",
+            "acessibilidade": "Maca adaptada, Libras, Atendimento a domicílio",
+            "email": "bruninha69@gmail.com"
+        }
+    ]
 }`;
