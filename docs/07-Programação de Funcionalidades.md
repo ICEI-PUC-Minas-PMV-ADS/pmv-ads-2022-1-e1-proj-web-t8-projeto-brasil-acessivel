@@ -53,3 +53,29 @@ A tela de Login serve para altenticar os usuários, e logo após exibe informaç
 3. Abra o Visual Studio Code e execute o Live Server;
 4. Abra um navegador de Internet e informe a seguinte URL: http://localhost:5500/Brasil%20Acessivel/login.html
 5. Informe um e-mail e senha já cadastrado e precione o botão "fazer login".
+
+## Cadastro (RF-010)
+
+A tela de cadastro serve para cadastrar os usuários e empresas que quiserem fazer parte do website. Há um botão que mostra todos os usuários e prestadores de serviços cadastrados no sistema. As informações do cadastro são armazenadas em um arquivo JS com estrutura JSON.
+
+![Tela login](img/TelaCadastro.png)
+
+### Requisitos atendidos
+* RF-010
+
+### Artefatos da funcionalidade
+* cadastro.html
+* style.css
+* bd.js
+
+### Estrutura de Dados
+
+![Estrutura de Dados](img/EstruturaDado_Cadastro.png)
+
+### Instruções de Acesso
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub;
+2. Descompacte o arquivo em uma pasta específica;
+3. Abra o Visual Studio Code e execute o Live Server;
+4. Abra um navegador de Internet e informe a seguinte URL: http://localhost:5500/Brasil%20Acessivel/cadastro.html
+5. Clique em uma opção de cadastro;
+6. Clique no botão Ver Usuários Cadastrado ou Ver Prestador Cadastrado.
