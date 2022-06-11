@@ -356,7 +356,7 @@ var prestador = JSON.parse(bd).prestadores;
 
             for (var contador = 0; contador < prestador.length; contador++) {
                 let dPrestador = prestador[contador];
-                conteudoHtml += "<li> nome: "+dPrestador.nome +", idade: "+dPrestador.idade+", serviço prestado: "+dPrestador.servico+", acessibilidade: "+dPrestador.acessibilidade+", email para contato: "+dPrestador.email+"</li>";
+                conteudoHtml += "<li> Nome: "+dPrestador.nome +", idade: "+dPrestador.idade+", serviço prestado: "+dPrestador.servico+", acessibilidade: "+dPrestador.acessibilidade+", email para contato: "+dPrestador.email+"</li>";
             }
             conteudoHtml += "</ul>";
             section.innerHTML = conteudoHtml;
