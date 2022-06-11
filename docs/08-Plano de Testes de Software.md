@@ -1,16 +1,69 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
+• Site publicado na Internet
+• Navegador da Internet - Chrome, Firefox ou Edge
+• Conectividade de Internet para acesso às plataformas (APISs)
+• Utilizar o leitor de telas NVDA atualizado.
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+Caso de Teste CT-01 - Visualizar bares e restaurantes no menu categorias na página principal
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+Requisitos Associados:
+RF-002 | O site deve apresentar categorias para facilitar a busca dos usuários, RF-003 | O site deve apresentar as informações do estabelecimento
 
-Comente sobre as ferramentas de testes utilizadas.
+Objetivo do teste
+Validar se os atalhos do menu de categoria estão exibindo informações respectivas dos bares e restaurantes.
+
+Passos:
+1) Acessar o navegador;
+2) Informar o endereço do Site
+3) Visualizar a página principal
+4) Acessar o menu categorias;
+5) Precionar o botão bares e restaurantes;
+
+Critérios de êxito
+Após precionar o botão bares e restaurantes, o sistema deve exibir informaçoes de no mínimo dois estabelecimentos relacionados a opção escolhida.
+
+Caso de Teste CT-02 Altenticar um usuário
+
+Requisitos Associados:
+RF-008 | O site deve possuir uma área de login para que o usuário possa fazer determinadas ações
+
+Objetivo do teste:
+Validar se a altenticação dos usuários está acontecendo bem como se for inserido informação incorreta à altenticação falhe.
+
+Passos:
+1) Acessar o navegador;
+2) Informar o endereço do Site;
+3) Visualizar a página principal;
+4) Acessar o botão login;
+5) Inserir usuário e senha válidos e precione o botão "fazer login";
+6) Inserir usuário e senha inválido e precione o botão "fazer login";
+
+Critérios de êxito
+Ao inserir um usuário e senha válido e precionar o botão "fazer login", deve exibir um alerta de usuário logado e na página as informações do usuário logado. Ao inserir um usuário e senha inválidos e precionar o botão "fazer login", deve exibir um alerta de erro.
+
+Caso de Teste CT-03 Validar cadastro de usuários e verificar usuários já cadastrados
+
+Requisitos Associados:
+RF-010 | O site deve possuir uma área para cadastrar novos usuários, prestadores e empresas.
+
+Objetivo do teste:
+Visualizar o formulário de usuários e exibir uma lista de usuários já cadastrados.
+
+Passos:
+1) Acessar o navegador;
+2) Informar o endereço do Site;
+3) Visualizar a página principal;
+4) Acessar o botão "cadastrar";
+5) Precionar o botão "usuário comum";
+6) Precionar o botão "ver usuários cadastrados";
+
+Critérios de êxito
+Após precionar o botão "usuário comum", deve exibir um formulário de cadastro e ao fim do mesmo um botão "ver usuários cadastrados", quando o mesmo for acionado deverá exibir uma lista com usuários já cadastrados.
  
 > **Links Úteis**:
+> - [NVDA - Leitor de telas para auxílio a deficientes visuais https://www.nvaccess.org/download/
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
