@@ -60,13 +60,14 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 | RF-007 | O site deve ter seus vídeos com legendas, tela com sinais de linguagem e/ou áudio descrição | BAIXA |
 | RF-008 | O site deve possuir uma área de login para que o usuário possa fazer determinadas ações no site | ALTA |
 | RF-009 | O site deve possuir uma área de login para as empresas poderem administrar as suas informações | ALTA |
-| RF-010 | O site deve possuir uma área para cadastrar e editar as especificações do seu estabelecimento | ALTA |
-| RF-011 | O site deve possuir dentro da área de login da empresa um resumo de feedback dos usuários | MÉDIA |
-| RF-012 | O site deve possuir um canal de comunicação direto com os criadores dentro da área de login de usuários e empresas | BAIXA |
-| RF-013 | O site deve ter dentro da área de login de usuários uma sessão de locais favoritados | MÉDIA |
-| RF-014 | O site deve possuir uma categoria “Sobre Nós” | BAIXA |
-| RF-015 | O site deve apresentar informações sobre acessibilidade como leis, importância, etc... | MÉDIA |
-| RF-016 | O site deve apresentar um ranking com os estabelecimentos mais bem avaliados | MÉDIA |
+| RF-010 | O site deve possuir uma área para cadastrar novos usuários, prestadores e empresas | ALTA |
+| RF-011 | O site deve possuir uma área para cadastrar e editar as especificações do seu estabelecimento | ALTA |
+| RF-012 | O site deve possuir dentro da área de login da empresa um resumo de feedback dos usuários | MÉDIA |
+| RF-013 | O site deve possuir um canal de comunicação direto com os criadores dentro da área de login de usuários e empresas | BAIXA |
+| RF-014 | O site deve ter dentro da área de login de usuários uma sessão de locais favoritados | MÉDIA |
+| RF-015 | O site deve possuir uma categoria “Sobre Nós” | BAIXA |
+| RF-016 | O site deve apresentar informações sobre acessibilidade como leis, importância, etc... | MÉDIA |
+| RF-017 | O site deve apresentar um ranking com os estabelecimentos mais bem avaliados | MÉDIA |
 
 ### Requisitos não Funcionais
 

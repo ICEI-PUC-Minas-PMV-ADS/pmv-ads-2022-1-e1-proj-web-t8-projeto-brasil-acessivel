@@ -11,7 +11,7 @@ Caso de Teste CT-01 - Visualizar bares e restaurantes no menu categorias na pág
 Requisitos Associados:
 RF-002 | O site deve apresentar categorias para facilitar a busca dos usuários, RF-003 | O site deve apresentar as informações do estabelecimento
 
-Objetivo do teste
+Objetivos do teste
 Validar se os atalhos do menu de categoria estão exibindo informações respectivas dos bares e restaurantes.
 
 Passos:
@@ -29,7 +29,7 @@ Caso de Teste CT-02 Altenticar um usuário
 Requisitos Associados:
 RF-008 | O site deve possuir uma área de login para que o usuário possa fazer determinadas ações
 
-Objetivo do teste:
+Objetivos do teste:
 Validar se a altenticação dos usuários está acontecendo bem como se for inserido informação incorreta à altenticação falhe.
 
 Passos:
@@ -48,7 +48,7 @@ Caso de Teste CT-03 Validar cadastro de usuários e verificar usuários já cada
 Requisitos Associados:
 RF-010 | O site deve possuir uma área para cadastrar novos usuários, prestadores e empresas.
 
-Objetivo do teste:
+Objetivos do teste:
 Visualizar o formulário de usuários e exibir uma lista de usuários já cadastrados.
 
 Passos:
