@@ -1,1 +1,0 @@
-alert('Está página é perigosa, deseja proceguir?');

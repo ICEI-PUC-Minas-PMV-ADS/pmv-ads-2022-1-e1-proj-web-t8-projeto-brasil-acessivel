@@ -25,7 +25,7 @@
         <h2 id="principal">Fazer Login</h2>
         <p>Você pode fazer login como usuário comum, prestador de serviços ou ainda como uma empresa parceira. Não
             possui login, <button onclick="document.location='cadastro.html'">Cadastre-se</button></p>
-        <for>
+        <form>
             <fieldset>
                 <legend>Faça login</legend>
                 <label for="email">E-mail</label>
@@ -33,12 +33,15 @@
                 <br>
                 <label for="senha">Digite sua senha</label>
                 <input type="password" id="senha" name="senha" required>
+<br>
                 <label for="salvarlogin">Continuar conectado</label>
                 <input type="checkbox" id="salvarlogin" name="salvarlogin">
-<button id="enviar">Fazer login</button>
+<br>
                 <a href="">Esqueci minha senha</a>
             </fieldset>
-        </for>
+        </form>
+        <button id="enviar">Fazer login</button>
+
         <section id="logado"></section>
     </main>
     <footer>
@@ -50,41 +53,7 @@
     </footer>
 
     <script src="bd.js"></script>
-    <script>
-        var emeio = document.getElementById("email");
-        var seguranca = document.getElementById("senha");
-var envia = document.getElementById("enviar");
-var usuario = JSON.parse(bd).usuarios;
-var conteudoHtml = "";
-var erro;
-envia.onclick = registrado;
-function registrado()   {
-    let section = document.getElementById("logado");
-conteudoHtml = "";
-section.innerHTML = "";
-    for(var contador = 0; contador < usuario.length; contador++) {
-let dUsuario = usuario[contador];
-if(emeio.value == dUsuario.email && seguranca.value == dUsuario.senha) {
-    conteudoHtml += "<button aria-expanded='false'>Usuário: "+dUsuario.email+"</button>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span>nome: "+dUsuario.nome+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span>idade: "+dUsuario.idade+"</span>";
-conteudoHtml += "<br>";
-conteudoHtml += "<span>deficiência: "+dUsuario.deficiencia+"</span>";
-section.innerHTML = conteudoHtml;
-break;
-}
-}
-
-if(contador == usuario.length) {     
-alert("usuário ou senha invalidos!");
-} else {
-    alert("usuário logado com sucesso!");
-    }
-}
-    
-    </script>
+    <script src="js/login.js"></script>
 </body>
 
 </html>
