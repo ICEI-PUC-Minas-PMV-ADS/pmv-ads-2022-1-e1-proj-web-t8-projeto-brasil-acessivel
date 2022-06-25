@@ -1,14 +1,46 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Os resultados obtidos nos testes de software realizados são descritos abaixo:
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+### CT-01 - Visualizar bares e restaurantes no menu categorias na página principal
 
-Teste
+Teste no Google Chrome
 
-## Avaliação
+https://user-images.githubusercontent.com/90225435/175779230-ba3e3901-ee15-4417-b333-48c8da532898.mp4
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Teste no Firefox
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+https://user-images.githubusercontent.com/90225435/175779227-5cd3dd4a-bb1d-453b-9f0a-297f0be516df.mp4
+
+Teste no Microsoft Edge
+
+https://user-images.githubusercontent.com/90225435/175779232-4fc2594d-5a1b-41f1-aa5d-c725df7bacfe.mp4
+
+### CT-02 - Autenticar um usuário
+
+Teste no Google Chrome
+
+https://user-images.githubusercontent.com/90225435/175779236-53a23148-f5cf-4c16-a442-f6fc917d0a2c.mp4
+
+Teste no Firefox
+
+https://user-images.githubusercontent.com/90225435/175779234-5fa2bf87-6814-4ef3-9b74-dbd93ef940c0.mp4
+
+Teste no Microsoft Edge
+
+https://user-images.githubusercontent.com/90225435/175779211-8e7fa793-35e1-459c-a9d3-46dcf6a8eb1e.mp4
+
+
+### CT-03 - Validar cadastro de usuários e verificar usuários já cadastrados
+
+Teste no Google Chrome
+
+https://user-images.githubusercontent.com/90225435/175779222-fae27c6a-c424-463f-8f60-1db16b72389f.mp4
+
+Teste no Firefox
+
+https://user-images.githubusercontent.com/90225435/175779219-50c8695d-7cc1-4392-bb22-276f6e9a5fd1.mp4
+
+Teste no Microsoft Edge
+
+https://user-images.githubusercontent.com/90225435/175779225-78434801-ae55-43d1-9982-a4c2b95e8c12.mp4
