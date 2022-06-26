@@ -84,7 +84,7 @@ var prestador = JSON.parse(bd).prestadores;
             conteudoHtml = "";
             section.innerHTML = "";
             conteudoHtml += "<h2 aria-live='polite'> Lista de prestadores cadastrados</h2>";
-            conteudoHtml += "<p> total de prestadores de serviços cadastrados: "+prestador.length+"</p>";
+            conteudoHtml += "<p> Total de Prestadores de Serviços Cadastrados: "+prestador.length+"</p>";
             conteudoHtml += "<ul>";
 
             for (var contador = 0; contador < prestador.length; contador++) {
